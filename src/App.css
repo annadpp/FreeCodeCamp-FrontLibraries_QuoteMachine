@@ -1,0 +1,90 @@
+.background {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 700px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 2rem;
+  text-align: left;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.quote-content {
+  min-height: 50vh;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+#author {
+  text-align: right;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.3);
+  padding: 0.6em 1.2em;
+  width: calc(50px + 0.7vw);
+  height: calc(50px + 0.7vw);
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  position: absolute;
+  top: 5vh;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: calc(0.7em + 0.5vw);
+  margin-bottom: 3vh 0;
+}
+
+h2 {
+  font-size: calc(2em + 3.7vw);
+  line-height: calc(0.8em + 1.2vh);
+  margin-bottom: calc(0.5em + 1vh);
+}
+
+h4 {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: calc(0.8em + 0.8vw);
+}
